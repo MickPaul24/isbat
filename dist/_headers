@@ -1,0 +1,6 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(self), microphone=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://assets.calendly.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://assets.calendly.com; img-src 'self' data: https://assets.calendly.com; font-src 'self' https://cdnjs.cloudflare.com; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src https://calendly.com;

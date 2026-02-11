@@ -1,0 +1,32 @@
+{
+  "name": "isbat",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build.js",
+    "dev": "npx serve dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MickPaul24/isbat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MickPaul24/isbat.git/issues"
+  },
+  "homepage": "https://github.com/MickPaul24/isbat.git#readme",
+  "devDependencies": {
+    "csso": "^5.0.5",
+  "esbuild": "^0.27.2",
+  "nodemon": "^3.1.11",
+  "globs": "^0.1.4",
+    "html-minifier-terser": "^7.2.0",
+    "sharp": "^0.34.5",
+    "terser": "^5.46.0"
+  }
+}

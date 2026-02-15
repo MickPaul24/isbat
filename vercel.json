@@ -1,0 +1,32 @@
+{
+    "version": 2,
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "X-Frame-Options",
+                    "value": "SAMEORIGIN"
+                },
+                {
+                    "key": "X-Content-Type-Options",
+                    "value": "nosniff"
+                },
+                {
+                    "key": "Referrer-Policy",
+                    "value": "strict-origin-when-cross-origin"
+                },
+                {
+                    "key": "Permissions-Policy",
+                    "value": "geolocation=(self), microphone=()"
+                },
+                {
+                    "key": "Content-Security-Policy",
+                    "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://assets.calendly.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://assets.calendly.com; img-src 'self' data: https://assets.calendly.com; font-src 'self' https://cdnjs.cloudflare.com; connect-src 'self' https://api.openai.com; media-src 'self'; object-src 'none'; frame-src https://calendly.com;"
+                }
+            ]
+        }
+    ]
+}
